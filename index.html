@@ -24,7 +24,6 @@
 
     <header class="hero">
         <div class="container hero-inner">
-            <p class="kicker">Project Page</p>
             <h1>[TNNLS 2025] Dual-domain Multi-path Self-supervised Diffusion Model for Accelerated MRI Reconstruction</h1>
             <p class="tagline" aria-label="Authors">
                 <span class="author-chip" tabindex="0">Yuxuan Zhang
@@ -74,7 +73,7 @@
                     <div class="project-content">
                         <section id="abstract" class="project-section">
                             <h2 class="section-title">Abstract</h2>
-                            <p class="section-text">Magnetic resonance imaging (MRI) is a vital diagnostic tool, but its inherently long acquisition times reduce clinical efficiency and patient comfort. Recent advancements in deep learning, particularly diffusion models, have improved accelerated MRI reconstruction. However, existing diffusion models' training often relies on fully sampled data, models incur high computational costs, and often lack uncertainty estimation, limiting their clinical applicability. To overcome these challenges, we propose a novel framework, called Dual-domain Multi-path Self-supervised Diffusion Model (DMSM), that integrates a self-supervised dual-domain diffusion model training scheme, a lightweight hybrid attention network for the reconstruction diffusion model, and a multi-path inference strategy, to enhance reconstruction accuracy, efficiency, and explainability. Unlike traditional diffusion-based models, DMSM eliminates the dependency on training from fully sampled data, making it more practical for real-world clinical settings. We evaluated DMSM on two human MRI datasets, demonstrating that it achieves favorable performance over several supervised and self-supervised baselines, particularly in preserving fine anatomical structures and suppressing artifacts under high acceleration factors. Additionally, our model generates uncertainty maps that correlate reasonably well with reconstruction errors, offering valuable clinically interpretable guidance and potentially enhancing diagnostic confidence.</p>
+                            <p class="section-text abstract-text">Magnetic resonance imaging (MRI) is a vital diagnostic tool, but its inherently long acquisition times reduce clinical efficiency and patient comfort. Recent advancements in deep learning, particularly diffusion models, have improved accelerated MRI reconstruction. However, existing diffusion models' training often relies on fully sampled data, models incur high computational costs, and often lack uncertainty estimation, limiting their clinical applicability. To overcome these challenges, we propose a novel framework, called Dual-domain Multi-path Self-supervised Diffusion Model (DMSM), that integrates a self-supervised dual-domain diffusion model training scheme, a lightweight hybrid attention network for the reconstruction diffusion model, and a multi-path inference strategy, to enhance reconstruction accuracy, efficiency, and explainability. Unlike traditional diffusion-based models, DMSM eliminates the dependency on training from fully sampled data, making it more practical for real-world clinical settings. We evaluated DMSM on two human MRI datasets, demonstrating that it achieves favorable performance over several supervised and self-supervised baselines, particularly in preserving fine anatomical structures and suppressing artifacts under high acceleration factors. Additionally, our model generates uncertainty maps that correlate reasonably well with reconstruction errors, offering valuable clinically interpretable guidance and potentially enhancing diagnostic confidence.</p>
                         </section>
 
                         <section id="method" class="project-section">
@@ -86,7 +85,7 @@
                                         <figcaption>Overall structure of DMSM training and multi-path inference.</figcaption>
                                     </figure>
                                     <figure class="media-card">
-                                        <img class="showcase-image" src="assets/spcan.png" alt="SPCAN module visualization" loading="lazy">
+                                        <img class="showcase-image half-size" src="assets/spcan.png" alt="SPCAN module visualization" loading="lazy">
                                         <figcaption>SPCAN module and core network component design.</figcaption>
                                     </figure>
                                 </div>
@@ -102,7 +101,7 @@
                                         <figcaption>T1 and T2 reconstruction comparisons under accelerated settings.</figcaption>
                                     </figure>
                                     <figure class="media-card">
-                                        <img class="showcase-image" src="assets/Multi-path_improvement_chart.png" alt="Multi-path improvement chart" loading="lazy">
+                                        <img class="showcase-image half-size" src="assets/Multi-path_improvement_chart.png" alt="Multi-path improvement chart" loading="lazy">
                                         <figcaption>Quantitative improvement brought by multi-path inference strategy.</figcaption>
                                     </figure>
                                 </div>

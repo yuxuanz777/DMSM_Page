@@ -272,6 +272,12 @@ nav {
     max-width: 74ch;
 }
 
+.abstract-text {
+    max-width: 100%;
+    text-align: justify;
+    text-wrap: pretty;
+}
+
 .results-grid {
     border: 1px dashed #ccd8e5;
     border-radius: 8px;
@@ -299,6 +305,11 @@ nav {
     background: #ffffff;
 }
 
+.showcase-image.half-size {
+    width: 50%;
+    margin: 0 auto;
+}
+
 .media-card figcaption {
     border-top: 1px solid #e6edf5;
     padding: 8px 12px;
@@ -306,6 +317,7 @@ nav {
     color: #7a8795;
     font-size: 0.88rem;
     line-height: 1.4;
+    text-align: center;
 }
 
 .citation-box {
@@ -400,6 +412,10 @@ nav {
 
     .showcase-image {
         max-height: 380px;
+    }
+
+    .showcase-image.half-size {
+        width: 78%;
     }
     
     .nav-links {
