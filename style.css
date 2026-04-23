@@ -273,9 +273,11 @@ nav {
 }
 
 .abstract-text {
-    max-width: 100%;
-    text-align: justify;
-    text-wrap: pretty;
+    max-width: none;
+    width: 100%;
+    text-align: left;
+    line-height: 1.85;
+    letter-spacing: 0.005em;
 }
 
 .results-grid {
@@ -305,7 +307,7 @@ nav {
     background: #ffffff;
 }
 
-.showcase-image.half-size {
+.compact-media {
     width: 50%;
     margin: 0 auto;
 }
@@ -414,7 +416,7 @@ nav {
         max-height: 380px;
     }
 
-    .showcase-image.half-size {
+    .compact-media {
         width: 78%;
     }
     
